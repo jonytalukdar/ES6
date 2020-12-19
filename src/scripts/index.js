@@ -45,12 +45,12 @@ import '../styles/index.scss';
 
 // template strings
 
-const name = 'JOney talukdar';
-const age = 21;
-const email = '@gmail.com';
+// const name = 'JOney talukdar';
+// const age = 21;
+// const email = '@gmail.com';
 
-const details = 'name : ' + name + 'age : ' + age + 'email : ' + email;
-console.log(details);
+// const details = 'name : ' + name + 'age : ' + age + 'email : ' + email;
+// console.log(details);
 
-const temDetails = `name : ${name} age : ${age} email : ${email}`;
-console.log(temDetails);
+// const temDetails = `name : ${name} age : ${age} email : ${email}`;
+// console.log(temDetails);

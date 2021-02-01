@@ -34,14 +34,36 @@ import '../styles/index.scss';
 
 // console.log(a);
 
-{
-  let i = 'i am let';
-  console.log(i);
-}
+// {
+//   let i = 'i am let';
+//   console.log(i);
+// }
 
-// usign iife
+// // usign iife
 
-(function () {
-  var abc = 'ABC';
-  console.log(abc);
-})();
+// (function () {
+//   var abc = 'ABC';
+//   console.log(abc);
+// })();
+
+// arrow function
+
+// const functionName = (a) => a * 12;
+// const result = functionName(12);
+// console.log(result);
+
+// const functionTwo = (num, num2) => num * num2;
+// const result2 = functionTwo(12, 12);
+// console.log(result2);
+
+// let add = function (a, b) {
+//   return a + b;
+// };
+
+let sumAll = (a, b) => a + b;
+const result = sumAll(12, 12);
+console.log(result);
+
+let square = (x) => x * x;
+const result2 = square(5);
+console.log(result2);

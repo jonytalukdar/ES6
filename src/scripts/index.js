@@ -12,4 +12,8 @@ var myName = 'Joney Talukdar';
 var age = 21;
 
 console.log('my name is ' + myName + 'and i am ' + age);
-console.log(`My name is ${myName} and i am ${age} years old`);
+console.log(
+  `My name is ${myName} and i am ${age} years old .i am ${
+    age < 18 ? 'adult' : ' not adult'
+  }`
+);

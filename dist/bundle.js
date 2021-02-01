@@ -16,7 +16,7 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _text__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./text */ \"./src/scripts/text.js\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.css */ \"./src/styles/index.css\");\n\n\n\nvar fn = function fn() {\n  return console.log('i am fn');\n};\n\nfn();\nconsole.log(_text__WEBPACK_IMPORTED_MODULE_0__.ABC);\n\n//# sourceURL=webpack://es6-tutorial/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _text__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./text */ \"./src/scripts/text.js\");\n/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.scss */ \"./src/styles/index.scss\");\n\n\n\nvar fn = function fn() {\n  return console.log('i am fn');\n};\n\nfn();\nconsole.log(_text__WEBPACK_IMPORTED_MODULE_0__.ABC);\n\n//# sourceURL=webpack://es6-tutorial/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -30,13 +30,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/styles/index.css":
-/*!******************************!*\
-  !*** ./src/styles/index.css ***!
-  \******************************/
+/***/ "./src/styles/index.scss":
+/*!*******************************!*\
+  !*** ./src/styles/index.scss ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://es6-tutorial/./src/styles/index.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://es6-tutorial/./src/styles/index.scss?");
 
 /***/ })
 

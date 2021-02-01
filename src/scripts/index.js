@@ -1,6 +1,6 @@
 import { ABC } from './text';
 
-import '../styles/index.css';
+import '../styles/index.scss';
 
 const fn = () => console.log('i am fn');
 

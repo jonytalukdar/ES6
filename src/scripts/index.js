@@ -60,10 +60,25 @@ import '../styles/index.scss';
 //   return a + b;
 // };
 
-let sumAll = (a, b) => a + b;
-const result = sumAll(12, 12);
-console.log(result);
+// let sumAll = (a, b) => a + b;
+// const result = sumAll(12, 12);
+// console.log(result);
 
-let square = (x) => x * x;
-const result2 = square(5);
-console.log(result2);
+// let square = (x) => x * x;
+// const result2 = square(5);
+// console.log(result2);
+
+// function functionName() {
+//   console.log(this);
+// }
+
+// functionName();
+
+let obj = {
+  name: 'joney talukdar',
+  print: () => {
+    console.log(this);
+  },
+};
+
+obj.print();

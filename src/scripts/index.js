@@ -1,9 +1,15 @@
-import { ABC } from './text';
-
 import '../styles/index.scss';
 
-const fn = () => console.log('i am fn');
+// template strings
 
-fn();
+// var name = `dsh;sd
+// hsdf;lsadjf;l
+// sdhf;lasdjfl
+// asdfj;laskd`;
+// console.log(name);
 
-console.log(ABC);
+var myName = 'Joney Talukdar';
+var age = 21;
+
+console.log('my name is ' + myName + 'and i am ' + age);
+console.log(`My name is ${myName} and i am ${age} years old`);

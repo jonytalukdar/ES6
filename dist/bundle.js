@@ -16,7 +16,7 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _text__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./text */ \"./src/scripts/text.js\");\n\r\n\r\nconst fn = () => console.log('i am fn');\r\n\r\nfn();\r\n\r\nconsole.log(_text__WEBPACK_IMPORTED_MODULE_0__.ABC);\r\n\n\n//# sourceURL=webpack://es6-tutorial/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _text__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./text */ \"./src/scripts/text.js\");\n\n\nvar fn = function fn() {\n  return console.log('i am fn');\n};\n\nfn();\nconsole.log(_text__WEBPACK_IMPORTED_MODULE_0__.ABC);\n\n//# sourceURL=webpack://es6-tutorial/./src/scripts/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tex
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nconst ABC = 'ABC';\r\n\n\n//# sourceURL=webpack://es6-tutorial/./src/scripts/text.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ABC\": () => (/* binding */ ABC)\n/* harmony export */ });\nvar ABC = 'ABC';\n\n//# sourceURL=webpack://es6-tutorial/./src/scripts/text.js?");
 
 /***/ })
 

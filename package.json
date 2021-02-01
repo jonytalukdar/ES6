@@ -4,6 +4,7 @@
   "description": "something",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve",
     "build": "webpack"
   },
   "repository": {

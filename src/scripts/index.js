@@ -129,30 +129,30 @@ import '../styles/index.scss';
 
 // spread opeartor
 
-function sum(...rest) {
-  const sum = rest.reduce((a, b) => a + b);
-  return sum;
+// function sum(...rest) {
+//   const sum = rest.reduce((a, b) => a + b);
+//   return sum;
 
-  // let sum = 0;
+// let sum = 0;
 
-  // for (let i = 0; i < arguments.length; i++) {
-  //   sum += arguments[i];
-  // }
-  // return sum;
-}
+// for (let i = 0; i < arguments.length; i++) {
+//   sum += arguments[i];
+// }
+// return sum;
+// }
 
-console.log(sum(1, 2, 3, 4, 5, 6));
+// console.log(sum(1, 2, 3, 4, 5, 6));
 
-let arr = [1, 2, 3, 4];
-console.log(...arr);
+// let arr = [1, 2, 3, 4];
+// console.log(...arr);
 
-let obj = {
-  a: 12,
-  b: 34,
-  c: 13,
-};
+// let obj = {
+//   a: 12,
+//   b: 34,
+//   c: 13,
+// };
 
-let obj2 = {
-  ...obj,
-};
-console.log(obj2);
+// let obj2 = {
+//   ...obj,
+// };
+// console.log(obj2);

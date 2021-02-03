@@ -89,3 +89,17 @@ import '../styles/index.scss';
 //   },
 // };
 // obj.print();
+
+// default perameter
+
+// function sqr(n = 12) {
+//   return n * n;
+// }
+
+// let result = sqr();
+// console.log(result);
+
+function greet(name, message) {
+  console.log(`${message} ${name}`);
+}
+greet('joneytalukdar', 'Hello !');

@@ -74,11 +74,18 @@ import '../styles/index.scss';
 
 // functionName();
 
-let obj = {
-  name: 'joney talukdar',
-  print: () => {
-    console.log(this);
-  },
-};
+// function testme() {
+//   console.log(this);
+// }
 
-obj.print();
+// testme();
+
+// let obj = {
+//   name: 'joney talukdar',
+//   print: function () {
+//     setTimeout(() => {
+//       console.log('hello', this.name);
+//     }, 2000);
+//   },
+// };
+// obj.print();

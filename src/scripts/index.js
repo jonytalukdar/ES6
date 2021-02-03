@@ -99,7 +99,60 @@ import '../styles/index.scss';
 // let result = sqr();
 // console.log(result);
 
-function greet(name, message) {
-  console.log(`${message} ${name}`);
+// function greet(name, message) {
+//   console.log(`${message} ${name}`);
+// }
+// greet('joneytalukdar', 'Hello !');
+
+// custom iterable
+
+// let obj = {
+//   start: 1,
+//   end: 10,
+//   [Symbol.iterator]: function () {
+//     let currentValue = this.start;
+//     const self = this;
+//     return {
+//       next() {
+//         return {
+//           done: currentValue > self.end,
+//           value: currentValue++,
+//         };
+//       },
+//     };
+//   },
+// };
+
+// for (let v of obj) {
+//   console.log(v);
+// }
+
+// spread opeartor
+
+function sum(...rest) {
+  const sum = rest.reduce((a, b) => a + b);
+  return sum;
+
+  // let sum = 0;
+
+  // for (let i = 0; i < arguments.length; i++) {
+  //   sum += arguments[i];
+  // }
+  // return sum;
 }
-greet('joneytalukdar', 'Hello !');
+
+console.log(sum(1, 2, 3, 4, 5, 6));
+
+let arr = [1, 2, 3, 4];
+console.log(...arr);
+
+let obj = {
+  a: 12,
+  b: 34,
+  c: 13,
+};
+
+let obj2 = {
+  ...obj,
+};
+console.log(obj2);
